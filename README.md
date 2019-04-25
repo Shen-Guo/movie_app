@@ -26,9 +26,10 @@ Everytime a user does a search save the movie searched into a file called search
 add an extra path '/history' that list out all search history
 
 ## ScreenShot
-![screenshot](screenshot1.jpg)
-![screenshot](Screenshot2.png)
-![screenshot](screenshot3.png)
+
+*![screenshot](screenshot1.jpg)
+*![screenshot](Screenshot2.png)
+*![screenshot](Screenshot3.png)
 
 
 ## Struggles
