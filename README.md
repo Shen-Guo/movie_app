@@ -1,10 +1,10 @@
-##About the app
+## About the app
 
-###Summary
+### Summary
 
 The students will update their movies app to allow users to search the database of movies.
 
-###Specification
+### Specification
 
 Instead of returning a single title, the OMDb API allows you to do a search which will return multiple titles. Look up the documentation on http://omdbapi.com to find out how to do that.
 
@@ -25,19 +25,19 @@ Everytime a user does a search save the movie searched into a file called search
 
 add an extra path '/history' that list out all search history
 
-##ScreenShot
+## ScreenShot
 ![screenshot](screenshot1.jpg)
-![screenshot](screenshot2.jpg)
-![screenshot](screenshot3.jpg)
+![screenshot](Screenshot2.png)
+![screenshot](screenshot3.png)
 
 
-##Struggles
+## Struggles
 
-###For this  movie app,I came across the following problems
+### For this  movie app,I came across the following problems
 
-####1 how to created a list of a tag inside erb file
+#### 1 how to created a list of a tag inside erb file
 
-####solution:
+#### solution:
 option 1 we could use the array in main.rb and join each element with the a tag surround it like
 
 titles =[title1, title2]
@@ -50,16 +50,16 @@ option 2 do it inside the erb file
 
 whatever the ruby expression goes into the  <% %> and for @var don't forget the equal  <%= @var_name %>
 
-####2 with the searching result link, I first pass in title to get the information, however, there are movies with exactly same title but in different years. the title is not unique 
+#### 2 with the searching result link, I first pass in title to get the information, however, there are movies with exactly same title but in different years. the title is not unique 
 
-####solution: get imbID instead, this id is unique so you get diferent information with same title 
+#### solution: get imbID instead, this id is unique so you get diferent information with same title 
 
 
-####3 url encoder
+#### 3 url encoder
 
 I get stuck with redirect syntax the space inside a url for I accidentally put space inside the url which break the whole redirect method
 
-####solution
+#### solution
 it is always good to put url encoder for all url 
 
 ####4 main.css didn't get update
