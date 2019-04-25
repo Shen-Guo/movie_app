@@ -1,0 +1,8 @@
+
+<h3>Search Result: </h3>
+<ul> 
+    <% @lists.each do |hash|%>
+    <li><a href="/movies/<%= (hash["imdbID"]) %>"> <%= hash["Title"] %> <%= hash["Year"] %></a></li>
+    <%end %>    
+</ul>
+
