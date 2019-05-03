@@ -20,9 +20,9 @@ option 2 do it inside the erb file
 
 whatever the ruby expression goes into the  <% %> and for @var don't forget the equal  <%= @var_name %>
 
-#### 2 with the searching result link, I first pass in title to get the information, however, there are movies with exactly same title but in different years. the title is not unique 
+#### 2 With the searching result link, I first pass in title to get the information, however, there are movies with exactly same title but in different years. the title is not unique 
 
-#### solution: get imbID instead, this id is unique so you get diferent information with same title 
+#### Solution: get imbID instead, this id is unique so you get diferent information with same title 
 
 
 #### 3 URL encoder
